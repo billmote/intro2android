@@ -1,0 +1,31 @@
+# Crashlytics Files
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+com_crashlytics_export_strings.xml
+
+# Mac Specific Files/Folders
+.DS_Store
+
+# Android Studio
+*.iml
+.gradle
+.idea
+build
+gen/
+
+# Local Configuration Files
+/local.properties
+
+# Built Application Files
+*.apk
+*.ap_
+
+# Files for the Dex VM
+*.dex
+
+# Java Class Files
+*.class
+
+# API Keys, etc.
+secret.xml
