@@ -9,25 +9,25 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_temperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
+        android:layout_above="@+id/tv_location"
         android:layout_centerHorizontal="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
         tools:text="90"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/btn_update_temperature"
         android:layout_centerHorizontal="true"
         android:textAppearance="?android:attr/textAppearanceSmall"
         tools:text="Charleston, SC" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_update_temperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
