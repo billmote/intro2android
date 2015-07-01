@@ -100,10 +100,10 @@ public class CurrentObservation {
     private String heatIndexString;
     @SerializedName("heat_index_f")
     @Expose
-    private Integer heatIndexF;
+    private String heatIndexF;
     @SerializedName("heat_index_c")
     @Expose
-    private Integer heatIndexC;
+    private String heatIndexC;
     @SerializedName("windchill_string")
     @Expose
     private String windchillString;
@@ -618,28 +618,28 @@ public class CurrentObservation {
     /**
      * @return The heatIndexF
      */
-    public Integer getHeatIndexF() {
+    public String getHeatIndexF() {
         return heatIndexF;
     }
 
     /**
      * @param heatIndexF The heat_index_f
      */
-    public void setHeatIndexF(Integer heatIndexF) {
+    public void setHeatIndexF(String heatIndexF) {
         this.heatIndexF = heatIndexF;
     }
 
     /**
      * @return The heatIndexC
      */
-    public Integer getHeatIndexC() {
+    public String getHeatIndexC() {
         return heatIndexC;
     }
 
     /**
      * @param heatIndexC The heat_index_c
      */
-    public void setHeatIndexC(Integer heatIndexC) {
+    public void setHeatIndexC(String heatIndexC) {
         this.heatIndexC = heatIndexC;
     }
 
